@@ -86,7 +86,7 @@ int main()
      {15, 0, 5, 0, 0, 0},
      {5, 0, 0, 20, 0, 0} };
 
-    dijkstra(graph, 5); // Find the shortest paths from vertex 1 (source) to all other vertices
+    dijkstra(graph, 1); // Find the shortest paths from vertex 1 (source) to all other vertices
 
     return 0;
 }
